@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 body {
@@ -51,4 +52,59 @@ footer .left {
 footer .sitemap {
   float: right;
   width: 285px;
+=======
+
+
+body {
+  background: #f9e933;
+}
+
+header, main, footer {
+  min-width: 855px;
+}
+
+header .container, main .container, footer .container {
+  max-width: 855px;
+  margin: auto;
+}
+
+header {
+  background: white;
+  overflow: auto;
+}
+
+header h1 {
+  float: left;
+  width: 570px;
+}
+
+header nav {
+  float: right;
+  width: 285px;
+}
+
+main {
+  background: white;
+  overflow: auto;
+}
+
+main .left {
+  float: left;
+  width: 570px;
+}
+
+main .right {
+  float: right;
+  width: 285px;
+}
+
+footer .left {
+  float: left;
+  width: 570px;
+}
+
+footer .sitemap {
+  float: right;
+  width: 285px;
+>>>>>>> f9fbf9498b64d019a60a2d2bc842805b02adf5e1
 }
