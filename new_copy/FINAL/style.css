@@ -1,0 +1,15 @@
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+table, th, td {
+   border: 1px solid black;
+}
+
+tr:nth-child(even) {
+	background:#f08080;
+}
+
+tr:nth-child(odd) {
+	background:#99ccff
+}
